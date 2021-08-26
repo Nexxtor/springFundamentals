@@ -6,12 +6,12 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 
 public class App {
+	
 	public static void main(String[] args) {
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
 		MyService service = ctx.getBean(MyService.class);
-		MyService service1 = ctx.getBean(MyService.class);
-		MyService service2 = ctx.getBean(MyService.class);
 		
-		service.doSomething();
+		service.doBusinessLogic();
 	}
+	
 }

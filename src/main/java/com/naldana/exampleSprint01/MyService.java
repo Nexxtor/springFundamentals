@@ -2,7 +2,14 @@ package com.naldana.exampleSprint01;
 
 public class MyService {
 	
-	public void doSomething() {
-		System.out.println("Doing something important!");
+	private MyRepository repository;
+	
+	public MyService(MyRepository repository) {	
+		this.repository = repository;
+	}
+
+	public void doBusinessLogic() {
+		System.out.println("Doing some business logic!");
+		repository.doQuery();
 	}
 }
