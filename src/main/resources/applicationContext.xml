@@ -5,7 +5,7 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<bean id="service" class="com.naldana.exampleSpring01.MyService" scope="prototype">
-		<constructor-arg ref="repository"/>
+		<property name="repository" ref="repository"/>
 	</bean>
 	<bean id="repository" class="com.naldana.exampleSpring01.MyRepository"/>
 
