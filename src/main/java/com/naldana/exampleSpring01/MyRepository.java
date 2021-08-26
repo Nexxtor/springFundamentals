@@ -1,4 +1,4 @@
-package com.naldana.exampleSprint01;
+package com.naldana.exampleSpring01;
 
 public class MyRepository {
 

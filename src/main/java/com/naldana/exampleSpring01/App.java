@@ -1,4 +1,4 @@
-package com.naldana.exampleSprint01;
+package com.naldana.exampleSpring01;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
