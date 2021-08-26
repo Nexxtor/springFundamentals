@@ -1,7 +1,12 @@
 package com.naldana.exampleSpring01;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class MyService {
 	
+	@Autowired
 	private MyRepository repository;
 	
 	public void doBusinessLogic() {
@@ -9,9 +14,4 @@ public class MyService {
 		repository.doQuery();
 	}
 
-	public void setRepository(MyRepository repository) {
-		this.repository = repository;
-	}
-	
-	
 }
