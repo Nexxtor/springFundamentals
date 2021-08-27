@@ -1,4 +1,4 @@
-package com.naldana.exampleSpring01;
+package com.naldana.exampleSpring01.service;
 
 public interface MyService {
 	
