@@ -1,17 +1,7 @@
 package com.naldana.exampleSpring01;
 
-public class MyService {
+public interface MyService {
 	
-	private MyRepository repository;
+	public void doBusinessLogic(); 
 	
-	
-	public MyService(MyRepository repository) {
-		this.repository = repository;
-	}
-
-	public void doBusinessLogic() {
-		System.out.println("Doing some business logic!");
-		repository.doQuery();
-	}
-
 }

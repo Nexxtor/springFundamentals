@@ -1,10 +1,7 @@
 package com.naldana.exampleSpring01;
 
-import org.springframework.stereotype.Repository;
+public interface MyRepository {
 
-public class MyRepository {
+	void doQuery();
 
-	public void doQuery() {
-		System.out.println("Doing database query");
-	}
 }

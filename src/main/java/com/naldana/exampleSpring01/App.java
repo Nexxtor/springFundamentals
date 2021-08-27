@@ -8,6 +8,8 @@ public class App {
 	
 	public static void main(String[] args) {
 		ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
+		
+		
 		MyService service = ctx.getBean(MyService.class);
 		
 		service.doBusinessLogic();
