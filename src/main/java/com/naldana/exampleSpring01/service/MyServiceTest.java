@@ -7,7 +7,6 @@ public class MyServiceTest implements MyService {
 
 	@Override
 	public void doBusinessLogic() {
-		// TODO Auto-generated method stub
 		System.out.println("Salida de Servicio MyServiceTest Oscar Doñas");
 		
 	}
