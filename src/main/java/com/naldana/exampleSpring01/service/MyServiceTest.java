@@ -7,7 +7,7 @@ public class MyServiceTest implements MyService {
 
 	@Override
 	public void doBusinessLogic() {
-		System.out.println("Salida de Servicio MyServiceTest Oscar Doñas");
+		System.out.println("Salida de SERVICE MyServiceTest Oscar Doñas");
 		
 	}
 	
