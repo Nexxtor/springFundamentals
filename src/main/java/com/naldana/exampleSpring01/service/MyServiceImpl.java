@@ -10,7 +10,7 @@ import com.naldana.exampleSpring01.data.MyRepository;
 @Service
 public class MyServiceImpl implements MyService {
 	
-	@Value("${app.name}")
+	@Value("${app.name:Spring}")
 	private String name;
 
 	private MyRepository repository;

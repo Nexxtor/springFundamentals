@@ -1,1 +1,3 @@
-app.name = NextSolutions
+app.name=
+app.baseUrl=  
+db.password=
