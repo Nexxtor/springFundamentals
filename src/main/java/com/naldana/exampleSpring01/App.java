@@ -2,7 +2,6 @@ package com.naldana.exampleSpring01;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
 import com.naldana.exampleSpring01.config.LocalConfig;
 import com.naldana.exampleSpring01.config.ProdConfig;
 import com.naldana.exampleSpring01.service.AnotherMyServiceImpl;
